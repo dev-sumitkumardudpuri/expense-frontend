@@ -310,6 +310,12 @@ function AuthModal({ isOpen, onClose, isSignup, onLoginSuccess, theme }) {
           </svg>
           <span>Continue with Google</span>
         </button>
+        <p
+          className="font-bold"
+          style={{ fontSize: "12px", color: "gray", marginTop: "10px" }}
+        >
+          Demo Credentials: <br /> Email: user@gmail.com Password: user
+        </p>
       </div>
     </div>
   );
